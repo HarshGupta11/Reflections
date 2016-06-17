@@ -1,0 +1,28 @@
+git log - to see history
+git diff commit1 commit2 - to check changes between two commit histories
+git status - will show changes between last commit and active project
+git commit - A commit is a snapshots of all the files in your repository
+git add - To add the files that need to be commited
+git clone - To make a clone of online repository into your computer
+git checkout - To return to previous state using using its commit id
+git init - Create a new repository with 0 commits
+git diff - will represent the changes between staging area(after git add) and working directory.
+git diff --staged - will represent the changes between repository(after git commit) and staging area(after git add)
+git reset --hard - will erase all the changes from staging area(no coming back) and working directory or is same as 					git checkout latest commit without comming back
+git reset - will clear your staging area
+git reset filename - will clear particular file with this name from staging area
+git branch - will shows all the branches created
+git branch name - will create a branch name duplicate of current working branch
+git checkout -b branchname - will create the branch and apply checkout on it also
+git log --graph --oneline branch1 branch2 branch3 etc - will shows all the git log on branch1,2,3 etc neatly
+git merge branch1 branch2 - will merge branch1 into branch2
+git branch -d branchname - will delete branch with name branchname
+git show commitid - will show git diff between parent of this id and this commitid.
+git remote - will shows all the remote available
+git remote add remote_name url - will create a remote with remote_name pointing to this url
+git pull remote_name branch_name - will pull branch branch_name from remote to your local directory
+git push remote_name branch_name - will push branch branch_name to remote from your local directory
+
+
+
+Setting up workspace on windows (Lesson 1) in Git course
