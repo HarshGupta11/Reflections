@@ -20,8 +20,9 @@ git branch -d branchname - will delete branch with name branchname
 git show commitid - will show git diff between parent of this id and this commitid.
 git remote - will shows all the remote available
 git remote add remote_name url - will create a remote with remote_name pointing to this url
-git pull remote_name branch_name - will pull branch branch_name from remote to your local directory
+git pull remote_name branch_name - will pull branch branch_name from remote to your local directory ///// will run 				git fetch and then git merge master origin/master
 git push remote_name branch_name - will push branch branch_name to remote from your local directory
+git fetch - will fetch everything from your remote repository to local one creating a separate branch with the 					remotename
 
 
 
