@@ -1,29 +1,32 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
+    By creating remote repository means that the repository is on cloud and Many people can work on it simultaneously because it is present on cloud. 
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Because many people are working simultaneously on remote repository and If someone update the repository while I am also working on it, then I like to know about the updates or changes into repository first before incorporating those changes onto my local directory as It may damage the code onto my local directory. That's why I chose to pull manually rather having automatic pulls from Git.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+	forks are used to clone repositories inside github only.
+	Clones are used to clone repositories from (github or local) to local directory.
+	branches are labels giving an alternative name to commit id.
+
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    last known state will acts as a parent of local master as well as remote/master so it will help in git merging or git pulling
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I will collaborate using pull requests in Github. It will be easy to create a change but will be hard to get it accepted.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Working on separate branch will make the code on master intact without breaking and will help in merging with other people using pull request easier.
